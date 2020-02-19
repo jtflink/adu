@@ -1,0 +1,63 @@
+/* Default font */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navbar, including overriding background color */
+.navbar {
+  background-color: #FEFEFE;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+/* Jumbotron, including overriding text color */
+.jumbotron {
+  background-color: #FDF5EF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron h1 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Overriding button style rules */
+.btn {
+  border-color: #EC6D58;
+  color: #EC6D58;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #EC6D58;
+  border-color: #EC6D58;
+  color: #ffffff;
+}
+
+.form {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.home a {
+  width: 20%;
+}
+
+.back_button a {
+  border-color: #FDF5EF;
+  color: #F5C099;
+  font-size: 30px;
+}
+
+.back_button:hover a {
+  background-color: #FDF5EF;
+  border-color: #FDF5EF;
+  color: #EC6D58;
+}
